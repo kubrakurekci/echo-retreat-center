@@ -1,0 +1,54 @@
+main {
+ position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  height: 100vh;
+  background-image: url(/assets/touch-to-nature.jpg);
+  background-size: cover;
+  overflow: hidden;
+}
+.bottom-fade {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  height: 200px;
+  background: linear-gradient(
+    to bottom,
+    rgba(255,255,255,0) 0%,
+    rgba(255,255,255,1) 100%
+  );
+  z-index: 6;
+  pointer-events: none;
+}
+.heroTitle{
+  font-size: 128px;
+  color: white;
+}
+.heroButton{
+padding: 12px 24px;
+color: white;
+}
+.heroContent {
+  position: relative;
+  z-index: 5;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 16px;
+}
+.sirivennela-regular {
+  font-family: "Sirivennela", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
+.blurLayer {
+  position: absolute;
+  inset: 0;
+  -webkit-backdrop-filter: blur(1.5px);
+  backdrop-filter: blur(1.5px);
+  background: rgba(255,255,255,0.15);
+  z-index: 2;
+}

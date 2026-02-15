@@ -1,0 +1,17 @@
+.navbarContainer{
+    position: absolute;
+    top: 0;
+    z-index: 10;
+    width: 80%;
+    transform: translateX(12%);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.navbar{
+    border-radius: 50px;
+    
+}
+.navbarSvg{
+    width: 35px;
+}

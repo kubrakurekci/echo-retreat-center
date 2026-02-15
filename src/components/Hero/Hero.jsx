@@ -1,6 +1,6 @@
 import { useEffect, useRef } from "react";
 import gsap from "gsap";
-import "./Hero.module.css"
+import "./Hero.css";
 
 function Hero() {
   const canvasRef = useRef(null);
@@ -21,10 +21,9 @@ function Hero() {
         y: 0,
         scale: 0,
         rotate: 0,
-        img: new Image()
+        img: new Image(),
       };
-      particles[i].img.src =
-        "/assets/leaf" + (1 + (i % 9)) + ".png";
+      particles[i].img.src = "/assets/leaf" + (1 + (i % 9)) + ".png";
     }
 
     function draw() {
@@ -39,28 +38,27 @@ function Hero() {
           p.x,
           p.y,
           p.img.width * p.scale,
-          p.img.height * p.scale
+          p.img.height * p.scale,
         );
         ctx.resetTransform();
       });
     }
 
-    const tl = gsap.timeline({ onUpdate: draw })
+    const tl = gsap
+      .timeline({ onUpdate: draw })
       .fromTo(
         particles,
         {
           x: (i) => {
-            const angle =
-              (i / particles.length) * Math.PI * 2 - Math.PI / 2;
+            const angle = (i / particles.length) * Math.PI * 2 - Math.PI / 2;
             return Math.cos(angle * 10) * radius;
           },
           y: (i) => {
-            const angle =
-              (i / particles.length) * Math.PI * 2 - Math.PI / 2;
+            const angle = (i / particles.length) * Math.PI * 2 - Math.PI / 2;
             return Math.sin(angle * 10) * radius;
           },
           scale: 1.1,
-          rotate: 0
+          rotate: 0,
         },
         {
           duration: 5,
@@ -69,9 +67,9 @@ function Hero() {
           y: 0,
           scale: 0,
           rotate: -3,
-          stagger: { each: -0.05, repeat: -1 }
+          stagger: { each: -0.05, repeat: -1 },
         },
-        0
+        0,
       )
       .seek(99);
 
@@ -84,7 +82,7 @@ function Hero() {
 
     const handlePointer = () => {
       gsap.to(tl, {
-        timeScale: tl.isActive() ? 0 : 1
+        timeScale: tl.isActive() ? 0 : 1,
       });
     };
 
@@ -99,18 +97,22 @@ function Hero() {
   }, []);
 
   return (
-  <main style={{ position: "relative" }}>
-   <canvas
-  ref={canvasRef}
-  style={{
-    position: "absolute",
-    inset: 0,
-    zIndex: 1
-  }}
-/>
-     <div className="bottom-fade"></div>
-  </main>
-);
+    <main>
+      <canvas
+        ref={canvasRef}
+        style={{
+          position: "absolute",
+          inset: 0,
+          zIndex: 1,
+        }}
+      />
+      <div className="blurLayer"></div>
+      <div className="heroContent">
+        <h1 className="heroTitle sirivennela-regular">Listen to the Silence.</h1>
+      </div>
+      <div className="bottom-fade"></div>
+    </main>
+  );
 }
 
 export default Hero;
