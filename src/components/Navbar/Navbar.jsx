@@ -10,15 +10,15 @@ function Navbar() {
         <div className="navbar-center lg:flex">
           <ul className="menu menu-horizontal px-1">
             <li>
-              <a>Item 1</a>
+             <Button text="Hizmetlerimiz"/>
             </li>
             <li>
-              <a>Item 2</a>
+             <Button text="Fiyatlandırma"/>
             </li>
           </ul>
         </div>
-        <div className="navbar-end bg-white">
-          <Button />
+        <div className="navbar-end">
+          <Button text="Rezervasyon"/>
         </div>
       </div>
     </div>

@@ -1,5 +1,5 @@
 import "./Button.css";
-function Button(){
-return <button className=" btn me-5">Book Your Stay</button>
+function Button({text}){
+return <button className="btn me-5">{text}</button>
 }
 export default Button;

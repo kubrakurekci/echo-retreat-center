@@ -1,0 +1,28 @@
+{
+    "services":[
+        {
+            "id":1,
+            "title":"Forest Sauna & Cold Plunge",
+            "description":"Doğanın kalbinde, panoramik vadi manzaralı cam sauna ve ardından buz gibi bir doğal gölet deneyimi.",
+            "img":"/assets/sauna.png"
+        },
+         {
+            "id":2,
+            "title":"Silent Yoga Sessions",
+            "description":"Gün doğumunda, sadece doğanın sesini dinleyerek yapılan, eğitmen eşliğinde profesyonel yoga ve meditasyon.",
+            "img":"/assets/yoga.png"
+        },
+        {
+            "id":3,
+            "title":"Digital Detox Library",
+            "description":"Wi-Fi ve telefonun yasak olduğu, sadece taş plaklar ve nadir kitapların bulunduğu 'Sessiz Kütüphane'.",
+            "img":"/assets/book.png"
+        },
+        {
+            "id":4,
+            "title":"Farm-to-Table Dining",
+            "description":"Kendi bahçemizden topladığımız organik ürünlerle hazırlanan, şef imzalı 'Topraktan Tabağa' akşam yemekleri.",
+            "img":"/assets/food.png"
+        }
+    ]
+}

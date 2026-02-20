@@ -1,0 +1,11 @@
+.slider{
+    border-radius: 24px;
+}
+.slider-button{
+    padding: 10px;
+    padding-left: 20px;
+    padding-right: 20px;
+    border-radius: 8px;
+    background-color: #ffffff;
+    color: #003f02;
+}
