@@ -1,28 +1,116 @@
 {
-    "services":[
+    "services": [
         {
-            "id":1,
-            "title":"Forest Sauna & Cold Plunge",
-            "description":"Doğanın kalbinde, panoramik vadi manzaralı cam sauna ve ardından buz gibi bir doğal gölet deneyimi.",
-            "img":"/assets/sauna.png"
-        },
-         {
-            "id":2,
-            "title":"Silent Yoga Sessions",
-            "description":"Gün doğumunda, sadece doğanın sesini dinleyerek yapılan, eğitmen eşliğinde profesyonel yoga ve meditasyon.",
-            "img":"/assets/yoga.png"
+            "id": 1,
+            "title": "Forest Sauna & Cold Plunge",
+            "description": "Doğanın kalbinde, panoramik vadi manzaralı cam sauna ve ardından buz gibi bir doğal gölet deneyimi.",
+            "img": "/assets/sauna.png",
+            "features": [
+                {
+                    "category": "sauna",
+                    "items": [
+                        {
+                            "id": 1,
+                            "icons": "🧼",
+                            "description": "Aromatherapy: Doğal çam ve okaliptüs yağları."
+                        },
+                        {
+                            "id": 2,
+                            "icons": "🧘‍♂️",
+                            "description": "Guided Meditation: Profesyonel eğitmenler eşliğinde."
+                        },
+                        {
+                            "id": 3,
+                            "icons": "📚",
+                            "description": "Curated Reading: Sessiz Kütüphane'de nadir kitaplar."
+                        }
+                    ]
+                }
+            ]
         },
         {
-            "id":3,
-            "title":"Digital Detox Library",
-            "description":"Wi-Fi ve telefonun yasak olduğu, sadece taş plaklar ve nadir kitapların bulunduğu 'Sessiz Kütüphane'.",
-            "img":"/assets/book.png"
+            "id": 2,
+            "title": "Silent Yoga Sessions",
+            "description": "Gün doğumunda, sadece doğanın sesini dinleyerek yapılan, eğitmen eşliğinde profesyonel yoga ve meditasyon.",
+            "img": "/assets/yoga.png",
+            "features": [
+                {
+                    "category": "yoga",
+                    "items": [
+                        {
+                            "id": 1,
+                            "icons": "🧘",
+                            "description": "Mat & Gear: Profesyonel ekipman desteği."
+                        },
+                        {
+                            "id": 2,
+                            "icons": "🌅",
+                            "description": "Sunrise Flow: Gün doğumu saatlerine özel program."
+                        },
+                        {
+                            "id": 3,
+                            "icons": "📴",
+                            "description": "No-Phone Zone: Tamamen dijitalden arınmış alan."
+                        }
+                    ]
+                }
+            ]
         },
         {
-            "id":4,
-            "title":"Farm-to-Table Dining",
-            "description":"Kendi bahçemizden topladığımız organik ürünlerle hazırlanan, şef imzalı 'Topraktan Tabağa' akşam yemekleri.",
-            "img":"/assets/food.png"
+            "id": 3,
+            "title": "Digital Detox Library",
+            "description": "Wi-Fi ve telefonun yasak olduğu, sadece taş plaklar ve nadir kitapların bulunduğu 'Sessiz Kütüphane'.",
+            "img": "/assets/book.png",
+            "features": [
+                {
+                    "category": "library",
+                    "items": [
+                        {
+                            "id": 1,
+                            "icons": "📖",
+                            "description": "Vinyl Collection: Geniş bir klasik müzik ve caz plak arşivi."
+                        },
+                        {
+                            "id": 2,
+                            "icons": "🔇",
+                            "description": "Silent Ambiance: Tam sessizlikte okuma deneyimi."
+                        },
+                        {
+                            "id": 3,
+                            "icons": "☕",
+                            "description": "Herbal Tea Bar: Okuma keyfine eşlik eden, tamamen buraya özel harmanlanmış bitki çayları."
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "id": 4,
+            "title": "Farm-to-Table Dining",
+            "description": "Kendi bahçemizden topladığımız organik ürünlerle hazırlanan, şef imzalı 'Topraktan Tabağa' akşam yemekleri.",
+            "img": "/assets/food.png",
+            "features": [
+                {
+                    "category": "food",
+                    "items": [
+                        {
+                            "id": 1,
+                            "icons": "🥗",
+                            "description": "Organic Farm-to-Table: Bahçemizden toplanan organik ürünlerle hazırlanan yemekler."
+                        },
+                        {
+                            "id": 2,
+                            "icons": "🌾",
+                            "description": "Seasonal Menu: Mevsimsel ürünleri içeren değişken menü."
+                        },
+                        {
+                            "id": 3,
+                            "icons": "🍷",
+                            "description": "Wine Pairing: Yemeklerle uyumlu, yerel şaraplar."
+                        }
+                    ]
+                }
+            ]
         }
     ]
 }

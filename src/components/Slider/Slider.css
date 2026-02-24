@@ -35,3 +35,17 @@
 .fade.show {
   opacity: 1;
 }
+.detail-btn{
+  border-radius: 8px;
+  margin-top: 8px;
+  background-color: rgba(0, 0, 0, 0.779);
+  color: white;
+  padding: 10px;
+}
+.back-btn{
+  border-radius: 8px;
+  margin-top: 12px;
+  background-color: #ffffff;
+  color: black;
+  padding: 10px;
+}

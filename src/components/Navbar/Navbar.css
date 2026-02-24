@@ -1,7 +1,7 @@
 .navbarContainer{
     position: fixed;
     top: 0;
-    z-index: 10;
+    z-index: 999;
     width: 80%;
     transform: translateX(12%);
     display: flex;
