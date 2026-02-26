@@ -27,9 +27,11 @@ function Slider() {
               />
 
               <div className="absolute inset-0 bg-black/40 pointer-events-none"></div>
-              <div className="relative z-10 flex flex-col items-center h-full text-white text-center px-40 pt-24">
+              <div className="serviceContent relative z-10 flex flex-col items-center h-full text-white text-center px-40 pt-24">
+                <div className="service">
                 <h3 className="text-3xl font-bold">{service.title}</h3>
                 <p className="mt-4 max-w-xl">{service.description}</p>
+                </div>
 
                 {activeDetailId !== service.id && (
                   <button
@@ -45,16 +47,17 @@ function Slider() {
 
                 {activeDetailId === service.id && (
                   <>
+                  <div className="serviceDetails">
                     <button
                       onClick={() => setActiveDetailId(null)}
-                      className="p-2 back-btn"
+                      className="back-btn"
                     >
                       Geri Dön
                     </button>
 
-                    <div className="fade show">
-                      <h4 className="text-2xl font-bold mt-6">Detaylar</h4>
+                    <div className="details">
                       <Features service={service} />
+                    </div>
                     </div>
                   </>
                 )}

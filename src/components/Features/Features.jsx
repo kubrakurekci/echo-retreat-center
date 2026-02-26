@@ -6,7 +6,7 @@ import Avatar from "@mui/material/Avatar";
 import React from "react";
 function Features({ service }) {
   return (
-    <List sx={{ width: "100%", maxWidth: 360, bgcolor: "background.paper" }}>
+    <List className="featuresList">
       {service.features.map((feature) => (
         <React.Fragment key={feature.category}>
           <h3 className="text-xl font-bold mb-2 capitalize">

@@ -1,0 +1,36 @@
+@font-face {
+  font-display: block;
+  font-family: Mori;
+  font-style: normal;
+  font-weight: 900;
+  src: url(https://assets.codepen.io/16327/PPMori-SemiBold.woff)
+    format("woff");
+}
+
+.about-wrapper {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  background: white;
+  padding: 40px 0;
+  color: black;
+}
+.spacer {
+  height: 50px;
+}
+.about-container {
+  max-width: 80vw;
+  text-align: center;
+}
+.split {
+  opacity: 0;
+  color: #0e100f;
+  font-family: "Mori", sans-serif;
+  font-size: clamp(2rem, 5rem, 3vw);
+  letter-spacing: 0.05rem;
+  will-change: transform;
+}
+.split * {
+  will-change: transform;
+}
