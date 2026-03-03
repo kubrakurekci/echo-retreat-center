@@ -42,10 +42,8 @@ const About = () => {
     <div className="about-wrapper">
       <div className="spacer"></div>
       <div className="about-container">
-        <h1 className="split" ref={splitRef}>
-          The text in this paragraph is split by words and lines. We have enabled
-          masking on the lines so that we can animate the lines to create a fun
-          'reveal' animation.
+        <h1 className="split red-hat-display about" ref={splitRef}>
+         Echo Retreat Center'a Hoş Geldiniz
         </h1>
       </div>
       <div className="spacer"></div>

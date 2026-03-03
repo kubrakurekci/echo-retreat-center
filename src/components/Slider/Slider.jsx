@@ -1,12 +1,12 @@
 import data from "../../locales/data.json";
 import { useState } from "react";
 import "./Slider.css";
-import Features from "../Features/Features";
+import Features from "./Features/Features";
 function Slider() {
   const [activeDetailId, setActiveDetailId] = useState(null);
   return (
     <div className="services-container">
-      <h1 className="slider-text sirivennela-regular">Hizmetlerimiz</h1>
+      <h1 className="slider-text red-hat-display ">Hizmetlerimiz</h1>
 
       <div className="carousel w-full slider">
         {data.services.map((service, index) => {
@@ -55,7 +55,7 @@ function Slider() {
                       Geri Dön
                     </button>
 
-                    <div className="details">
+                    <div>
                       <Features service={service} />
                     </div>
                     </div>

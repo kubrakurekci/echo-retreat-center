@@ -15,6 +15,7 @@
   background: white;
   padding: 40px 0;
   color: black;
+  margin-top: 120px;
 }
 .spacer {
   height: 50px;
@@ -33,4 +34,10 @@
 }
 .split * {
   will-change: transform;
+}
+.red-hat-display {
+  font-family: "Red Hat Display", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 400px;
+  font-style: normal;
 }
