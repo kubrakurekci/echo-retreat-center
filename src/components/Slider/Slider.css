@@ -72,8 +72,9 @@
   padding: 12px;
 }
 .serviceDetails{
- background: linear-gradient(135deg, #427A43, #065f46);
-  border-radius: 70%  / 40% ;
-  width: 500px;
+ background: linear-gradient(135deg, #f2e3bbd2, #524d40d2);
+  border-radius: 5%;
+  width: 400px;
   height: 350px;
 }
+

@@ -1,27 +1,46 @@
 import StayItem from "./StayItem/StayItem";
 import { useState } from "react";
+import data from "../../locales/data.json";
+import "./Stay.css";
+
 function Stay() {
-    const [activeDetailId, setActiveDetailId] = useState(null);
-    
- return(
-  <div>
-    <div className="card bg-base-100 w-96 shadow-sm">
-  <figure>
-    <img
-      src="/assets/solo-nest.png"
-      alt="Shoes" />
-  </figure>
-  <div className="card-body">
-    <h2 className="card-title">Card Title</h2>
-    <p>A card component has a figure, a body part, and inside body there are title and actions parts</p>
-    <div className="card-actions justify-end">
-     <button onClick={() => setActiveDetailId(null)}>Detay</button>
-    <StayItem />
+  const [activeDetailIds, setActiveDetailIds] = useState([]);
+
+  const toggleDetail = (roomId) => {
+    setActiveDetailIds(prev =>
+      prev.includes(roomId)
+        ? prev.filter(id => id !== roomId)
+        : [...prev, roomId]
+    );
+  };
+
+  return (
+    <div className="stayWrapper">
+      {data.rooms.map((room) => (
+        <div key={room.id} className="card bg-base-100 w-96 shadow-sm">
+          <figure>
+            <img src={room.img} alt={room.title} />
+          </figure>
+          <div className="card-body">
+            <h2 className="card-title">{room.title}</h2>
+            <p>{room.description}</p>
+
+            {activeDetailIds.includes(room.id) && (
+              <div className="stay-item-wrapper">
+                <StayItem />
+              </div>
+            )}
+
+            <div className="card-actions justify-end mt-auto">
+              <button onClick={() => toggleDetail(room.id)}>
+                {activeDetailIds.includes(room.id) ? "Geri Dön" : "Detay"}
+              </button>
+            </div>
+          </div>
+        </div>
+      ))}
     </div>
-  </div>
-</div>
-   
- </div>
- );
+  );
 }
+
 export default Stay;

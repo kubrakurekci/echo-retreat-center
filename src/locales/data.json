@@ -112,5 +112,25 @@
                 }
             ]
         }
+    ],
+    "rooms": [
+        {
+            "id": 1,
+            "title": "Ruhun İçin Bir Sığınak",
+            "description": "Yalnızlığın içindeki berraklığı arayanlar için tasarlandı. Bu minimalist kabin, antik çam ağaçlarının ritmik fısıltıları eşliğinde, kendi düşüncelerinizle yeniden bağ kurmanız için size özel bir köşe sunuyor.",
+            "img": "/assets/solo-nest.png"         
+        },
+        {
+            "id":2,
+            "title": "Paralel Yollar, Ortak Sessizlik",
+            "description":"Zamanın yavaşladığı romantik bir kaçış. Merkezi şöminenin başında ısınabilir veya özel terasınızdan yıldızları izleyebilirsiniz. Burası sadece bir oda değil; doğanın kucağında birbirinizi yeniden keşfedeceğiniz bir alan.",
+            "img": "/assets/couples-hideout.png"
+        },
+        {
+            "id": 3,
+            "title": "Ufuk Çizgisinin Yatağınızla Buluştuğu Yer",
+            "description": "Ormanın tam içinde uyanın. Tavandan yere kadar uzanan cam duvarlarıyla bu süit, barınak ve vahşi doğa arasındaki çizgiyi bulanıklaştırıyor. Yorganınızdan ayrılmadan, vadide dans eden sabah sisini izleyin.",
+            "img": "/assets/panoramic-suit.png"
+        }
     ]
 }

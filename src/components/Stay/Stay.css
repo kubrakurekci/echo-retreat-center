@@ -1,0 +1,11 @@
+.stayWrapper{
+    margin-top: 64px;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(24rem, 1fr));
+    gap: 1rem; 
+    justify-content: center; 
+    align-items: start;
+    max-width: 1200px; 
+    margin-left: auto;  
+    margin-right: auto;
+}
