@@ -1,7 +1,7 @@
-import StayItem from "./StayItem/StayItem";
 import { useState } from "react";
 import data from "../../locales/data.json";
 import "./Stay.css";
+import RoomCard from "./RoomCard/RoomCard";
 
 function Stay() {
   const [activeDetailIds, setActiveDetailIds] = useState([]);
@@ -27,12 +27,12 @@ function Stay() {
 
             {activeDetailIds.includes(room.id) && (
               <div className="stay-item-wrapper">
-                <StayItem />
+                <RoomCard roomType={room.detailKey} stayDetails={data.stayDetails} />
               </div>
             )}
 
             <div className="card-actions justify-end mt-auto">
-              <button onClick={() => toggleDetail(room.id)}>
+              <button className="stayDetailButton" onClick={() => toggleDetail(room.id)}>
                 {activeDetailIds.includes(room.id) ? "Geri Dön" : "Detay"}
               </button>
             </div>

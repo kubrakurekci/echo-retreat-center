@@ -9,3 +9,13 @@
     margin-left: auto;  
     margin-right: auto;
 }
+.stayDetailButton{
+    padding: 10px;
+    border-radius: 8px;
+    background-color: white;
+    color: black;
+}
+.stayDetailButton:hover{
+    background-color: #427A43;
+    color: white;
+}

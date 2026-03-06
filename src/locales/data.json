@@ -116,21 +116,50 @@
     "rooms": [
         {
             "id": 1,
+            "detailKey": "soloNest",
             "title": "Ruhun İçin Bir Sığınak",
             "description": "Yalnızlığın içindeki berraklığı arayanlar için tasarlandı. Bu minimalist kabin, antik çam ağaçlarının ritmik fısıltıları eşliğinde, kendi düşüncelerinizle yeniden bağ kurmanız için size özel bir köşe sunuyor.",
-            "img": "/assets/solo-nest.png"         
+            "img": "/assets/solo-nest.png"
         },
         {
-            "id":2,
+            "id": 2,
+            "detailKey": "couplesHideout",
             "title": "Paralel Yollar, Ortak Sessizlik",
-            "description":"Zamanın yavaşladığı romantik bir kaçış. Merkezi şöminenin başında ısınabilir veya özel terasınızdan yıldızları izleyebilirsiniz. Burası sadece bir oda değil; doğanın kucağında birbirinizi yeniden keşfedeceğiniz bir alan.",
+            "description": "Zamanın yavaşladığı romantik bir kaçış. Merkezi şöminenin başında ısınabilir veya özel terasınızdan yıldızları izleyebilirsiniz. Burası sadece bir oda değil; doğanın kucağında birbirinizi yeniden keşfedeceğiniz bir alan.",
             "img": "/assets/couples-hideout.png"
         },
         {
             "id": 3,
+            "detailKey": "panoramicSuit",
             "title": "Ufuk Çizgisinin Yatağınızla Buluştuğu Yer",
             "description": "Ormanın tam içinde uyanın. Tavandan yere kadar uzanan cam duvarlarıyla bu süit, barınak ve vahşi doğa arasındaki çizgiyi bulanıklaştırıyor. Yorganınızdan ayrılmadan, vadide dans eden sabah sisini izleyin.",
             "img": "/assets/panoramic-suit.png"
         }
-    ]
+    ],
+    "stayDetails": {
+        "soloNest": {
+            "images": [
+                "/assets/solonest1.png",
+                "/assets/solonest2.png",
+                "/assets/solonest3.png"
+            ],
+            "price": "150$ for 1 night"
+        },
+        "couplesHideout": {
+            "images": [
+                "/assets/coupleshideout1.png",
+                "/assets/coupleshideout2.png",
+                "/assets/coupleshideout3.png"
+            ],
+            "price": "250$ for 1 night"
+        },
+        "panoramicSuit": {
+            "images": [
+                "/assets/panoramicsuit1.png",
+                "/assets/panoramicsuit2.png",
+                "/assets/panoramicsuit3.png"
+            ],
+            "price": "350$ for 1 night"
+        }
+    }
 }
