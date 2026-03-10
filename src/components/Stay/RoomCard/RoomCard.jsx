@@ -12,7 +12,7 @@ function RoomCard({ roomType, stayDetails }) {
         ))}
       </figure>
 
-      <div className="card-body">
+      <div className="card-body price">
         <span>{room.price}</span>
       </div>
     </div>

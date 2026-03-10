@@ -15,14 +15,14 @@ function Stay() {
   };
 
   return (
-    <div className="stayWrapper">
+    <div className="stayWrapper poiret-one-regular">
       {data.rooms.map((room) => (
         <div key={room.id} className="card bg-base-100 w-96 shadow-sm">
           <figure>
             <img src={room.img} alt={room.title} />
           </figure>
           <div className="card-body">
-            <h2 className="card-title">{room.title}</h2>
+            <h2 className="card-title poiret-one-regular"><i>{room.title}</i></h2>
             <p>{room.description}</p>
 
             {activeDetailIds.includes(room.id) && (

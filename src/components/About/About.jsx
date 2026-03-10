@@ -45,6 +45,7 @@ const About = () => {
         <h1 className="split red-hat-display about" ref={splitRef}>
          Echo Retreat Center'a Hoş Geldiniz
         </h1>
+        <p>Echo Retreat Center, doğanın kucağında huzur ve yenilenme arayanlara özel bir sığınak sunar. Misafirlerimize, günlük hayatın karmaşasından uzaklaşarak, kendilerini yeniden keşfetmeleri için ilham verici bir ortam sağlıyoruz. Doğal güzelliklerimiz, sürdürülebilir uygulamalarımız ve samimi atmosferimizle, her ziyaretçimizin unutulmaz bir deneyim yaşamasını hedefliyoruz.</p>
       </div>
       <div className="spacer"></div>
     </div>

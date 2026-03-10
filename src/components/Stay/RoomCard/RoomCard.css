@@ -3,4 +3,13 @@
   height: 370px;
   object-fit: cover;
   object-position: top;
+  background-color: white;
+}
+.poiret-one-regular {
+  font-family: "Poiret One", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
+.price{
+  background-color: white;
 }

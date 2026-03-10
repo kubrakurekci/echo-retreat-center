@@ -4,6 +4,8 @@ import Navbar from './components/Navbar/Navbar';
 import Slider from './components/Slider/Slider';
 import About from './components/About/About';
 import Stay from './components/Stay/Stay';
+import Footer from './components/Footer/Footer';
+import Comments from './components/Comments/Comments';
 function App() {
 
   return (
@@ -13,6 +15,8 @@ function App() {
     <About/>
     <Slider />
     <Stay />
+    <Comments />
+    <Footer />
     </>
   );
 }
