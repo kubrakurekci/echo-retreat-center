@@ -167,19 +167,22 @@
             "id": 1,
             "name": "Selin G.",
             "comment": "Telefonumu resepsiyona bırakıp kütüphaneye geçtiğim o ilk an... Gerçek sessizliğin ne olduğunu unutmuşum. Doğanın sesleriyle çevrili, sadece kitapların ve kuşların cıvıltısının olduğu o an, hayatımın en huzurlu anlarından biriydi.",
-            "avatar": "/assets/elif.mp4"
+            "avatar": "/assets/elif.mp4",
+            "rate": "5"
         },
         {
             "id": 2,
             "name": "Can & Melis A.",
             "comment": "The Couple's Hideout'taki şömine başında başbaşa vakit geçirmek hayatımızın en huzurlu deneyimiydi. Doğanın kucağında, sadece birbirimize ve sessizliğe odaklanarak geçirdiğimiz o zaman dilimi, ilişkimize yeni bir derinlik kattı.",
-            "avatar": "/assets/can&melis.mp4"
+            "avatar": "/assets/can&melis.mp4",
+            "rate": "5"
         },
         {
             "id": 3,
             "name": "Arda K.",
             "comment": "Sabah sisinin içinde yoga yapmak... Echo Retreat gerçekten ruhumu tazeledi. Panoramic Suit'teki o an, doğayla tam bir uyum içindeydim. Şehir hayatının karmaşasından uzaklaşarak, sadece kendimle ve çevremdeki güzellikle baş başa kalmak inanılmazdı.",
-            "avatar": "/assets/arda.png"
+            "avatar": "/assets/arda.png",
+            "rate": "4"
         }
     ]
 }

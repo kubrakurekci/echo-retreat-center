@@ -42,3 +42,9 @@
     height: auto ;
     border-radius: 0 0 12px 12px;
 }
+.stayTitle{
+    text-align: center;
+    font-size: clamp(24px, 48px, 72px);
+    margin-top: 96px;
+    margin-bottom: 48px;
+}

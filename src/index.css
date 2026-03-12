@@ -1,3 +1,8 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+.sirivennela-regular {
+  font-family: "Sirivennela", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}

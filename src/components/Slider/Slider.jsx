@@ -6,7 +6,7 @@ function Slider() {
   const [activeDetailId, setActiveDetailId] = useState(null);
   return (
     <div className="services-container">
-      <h1 className="slider-text red-hat-display ">Hizmetlerimiz</h1>
+      <h1 className="slider-text">Hizmetlerimiz</h1>
 
       <div className="carousel w-full slider">
         {data.services.map((service, index) => {

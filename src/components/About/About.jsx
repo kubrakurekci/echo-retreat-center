@@ -41,11 +41,11 @@ const About = () => {
   return (
     <div className="about-wrapper">
       <div className="spacer"></div>
-      <div className="about-container">
-        <h1 className="split red-hat-display about" ref={splitRef}>
-         Echo Retreat Center'a Hoş Geldiniz
+      <div className="about-container split" ref={splitRef}>
+        <h1 className="red-hat-display about">
+         Echo Retreat Center
         </h1>
-        <p>Echo Retreat Center, doğanın kucağında huzur ve yenilenme arayanlara özel bir sığınak sunar. Misafirlerimize, günlük hayatın karmaşasından uzaklaşarak, kendilerini yeniden keşfetmeleri için ilham verici bir ortam sağlıyoruz. Doğal güzelliklerimiz, sürdürülebilir uygulamalarımız ve samimi atmosferimizle, her ziyaretçimizin unutulmaz bir deneyim yaşamasını hedefliyoruz.</p>
+        <p className="red-hat-display aboutParagraph">Echo Retreat Center, doğanın kucağında huzur ve yenilenme arayanlara özel bir sığınak sunar. Misafirlerimize, günlük hayatın karmaşasından uzaklaşarak, kendilerini yeniden keşfetmeleri için ilham verici bir ortam sağlıyoruz. Doğal güzelliklerimiz, sürdürülebilir uygulamalarımız ve samimi atmosferimizle, her ziyaretçimizin unutulmaz bir deneyim yaşamasını hedefliyoruz.</p>
       </div>
       <div className="spacer"></div>
     </div>

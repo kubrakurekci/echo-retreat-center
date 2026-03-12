@@ -15,6 +15,8 @@ function Stay() {
   };
 
   return (
+    <div className="">
+      <h1 className="stayTitle">Konaklama Seçeneklerimiz</h1>
     <div className="stayWrapper poiret-one-regular">
       {data.rooms.map((room) => (
         <div key={room.id} className="card bg-base-100 w-96 shadow-sm">
@@ -39,6 +41,7 @@ function Stay() {
           </div>
         </div>
       ))}
+    </div>
     </div>
   );
 }

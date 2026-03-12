@@ -28,7 +28,6 @@
   opacity: 0;
   color: #0e100f;
   font-family: "Mori", sans-serif;
-  font-size: clamp(2rem, 5rem, 3vw);
   letter-spacing: 0.05rem;
   will-change: transform;
 }
@@ -40,4 +39,15 @@
   font-optical-sizing: auto;
   font-weight: 400px;
   font-style: normal;
+}
+.aboutParagraph{
+  font-family: "Red Hat Display", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 100p;
+  font-style: normal;
+  font-size: clamp(16px, 24px, 32px);
+  margin-top: 24px;
+}
+.about{
+ font-size: clamp(24px, 48px, 72px);
 }
