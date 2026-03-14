@@ -6,6 +6,7 @@ import About from './components/About/About';
 import Stay from './components/Stay/Stay';
 import Footer from './components/Footer/Footer';
 import Comments from './components/Comments/Comments';
+import Contact from './components/Contact/Contact';
 function App() {
 
   return (
@@ -16,6 +17,7 @@ function App() {
     <Slider />
     <Stay />
     <Comments />
+    <Contact />
     <Footer />
     </>
   );

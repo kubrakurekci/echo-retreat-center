@@ -2,12 +2,11 @@ import customerdata from "../../locales/data.json";
 import "./Comments.css";
 function Comments() {
   return (
-    <div>
+    <div id="comments">
       <h1 className="customerTitle">Bizi Müşterilerimizden Dinleyin</h1>
       <div className="customerSection">
         {customerdata.customerComments.map((customer, index) => {
           const isVideo = customer.avatar.endsWith(".mp4");
-
           return (
             <div
               key={index}

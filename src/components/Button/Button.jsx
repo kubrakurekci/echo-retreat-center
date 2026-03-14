@@ -1,5 +1,9 @@
 import "./Button.css";
-function Button({text}){
-return <button className="btn me-5">{text}</button>
+function Button({ text, onClick }) {
+  return (
+    <button onClick={onClick} className="btn me-5">
+      {text}
+    </button>
+  );
 }
 export default Button;

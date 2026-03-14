@@ -15,7 +15,7 @@ function Stay() {
   };
 
   return (
-    <div className="">
+    <div id="stay">
       <h1 className="stayTitle">Konaklama Seçeneklerimiz</h1>
     <div className="stayWrapper poiret-one-regular">
       {data.rooms.map((room) => (

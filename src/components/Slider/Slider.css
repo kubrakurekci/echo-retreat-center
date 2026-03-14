@@ -1,74 +1,76 @@
-.slider{
-    border-radius: 24px;
-    width: 100%;
-    height: 600px;
+.slider {
+  border-radius: 48px;
+  width: 100%;
+  height: 600px;
 }
-.slider-button{
-    padding: 10px;
-    padding-left: 20px;
-    padding-right: 20px;
-    border-radius: 8px;
-    background-color: #ffffff;
-    color: #003f02;
+
+.slider-button {
+  padding: 10px;
+  padding-left: 20px;
+  padding-right: 20px;
+  border-radius: 8px;
+  background-color: #ffffff;
+  color: #003f02;
 }
-.services-container{
-    display: flex;
-    flex-direction: column;
-    padding: 50px;
-    margin-top: 150px;
-    background-color: #427A43;
-      background: linear-gradient(135deg, #427A43, #065f46);
-  border-radius: 60% 40% 70% 30% / 60% 30% 70% 40%;
+
+.services-container {
+  display: flex;
+  flex-direction: column;
+  padding: 50px;
+  margin-top: 150px;
+  background-color: #427A43;
+  background: linear-gradient(135deg, #427A43, #065f46);
+  border-radius: 60% 40% 70% 0% / 60% 0% 70% 40%;
 }
-.serviceContent{
+
+.serviceContent {
   position: relative;
   z-index: 10;
-  display:flex;
+  display: flex;
   flex-direction: row;
   align-items: center;
   height: 100%;
-  color:white;
+  color: white;
   text-align: center;
-  padding: 0 50px;
+  justify-content: center;
+  padding: 50px;
   padding-top: 100px;
   gap: 50px;
 }
-.service{
+
+.service {
   display: flex;
   flex-direction: column;
   align-items: center;
 }
-.carousel-item{
-    display: flex;
-    flex-direction: row;
-    align-items: center;
-    justify-content: center;
+
+.slider-text {
+  text-align: center;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: clamp(24px, 48px, 72px);
+  margin-bottom: 24px;
+  color: white;
 }
-.slider-text{
-    text-align: center;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    font-size: clamp(24px, 48px, 72px);
-    margin-bottom: 24px;
-    color: white;
-}
-.detail-btn{
+
+.detail-btn {
   border-radius: 8px;
   background-color: rgba(0, 0, 0, 0.779);
   color: white;
   padding: 12px;
 }
-.back-btn{
+
+.back-btn {
   border-radius: 8px;
   background-color: #ffffff;
   color: black;
   padding: 12px;
 }
-.serviceDetails{
- background: linear-gradient(135deg, #f2e3bbd2, #524d40d2);
+
+.serviceDetails {
+  background: linear-gradient(135deg, #f2e3bbd2, #524d40d2);
   border-radius: 5%;
   width: 400px;
   height: 350px;
 }
-
